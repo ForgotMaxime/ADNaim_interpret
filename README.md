@@ -15,8 +15,6 @@ Ce dossier contient des outils avancés pour analyser les mouvements de souris �
 3. Lancez l'analyse :
    ```powershell
    python interpret_mouse_metrics.py votre_fichier.csv
-   # ou
-   python ultra_complete_analyzer.py votre_fichier.csv
    ```
 4. Un dossier de résultats sera créé pour chaque fichier, contenant :
    - Des graphiques (PNG)
