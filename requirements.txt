@@ -1,0 +1,6 @@
+pynput
+keyboard
+numpy
+pandas
+matplotlib
+seaborn
