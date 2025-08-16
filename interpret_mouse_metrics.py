@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 def analyze_mouse_metrics(file_path):
     base = os.path.splitext(os.path.basename(file_path))[0]
     outdir = os.path.join(os.path.dirname(file_path), base + '_output')
@@ -238,11 +239,7 @@ if __name__ == "__main__":
             analyze_mouse_metrics(file)
         else:
             print(f"❌ Fichier non trouvé : {file}")
-import os
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 def analyze_mouse_metrics(file_path):
     print(f"\n📂 Analyse du fichier : {os.path.basename(file_path)}")
@@ -334,5 +331,4 @@ if __name__ == "__main__":
         if os.path.isfile(file):
             analyze_mouse_metrics(file)
         else:
-
             print(f"❌ Fichier non trouvé : {file}")
